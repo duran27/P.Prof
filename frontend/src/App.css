@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-bg {
+  background-image: url("../src/backgound_inicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo-ok {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: auto;
+}
+   
+.App-header {
+
+  
+
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.language-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: grid; /* Arrange buttons horizontally */
+  gap: 5px; /* Add space between buttons */
+}
+
+.language-button {
+  background-color: #0098a5; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px 20px; /* Adjust padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+  font-size: 12px; /* Adjust font size */
+}
+
+.language-button:hover {
+  background-color: #45a049; /* Hover effect background color */
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .language-buttons {
+    top: 10px; /* Adjust top position for smaller screens */
+    right: 10px; /* Adjust right position for smaller screens */
+  }
+}
+
+.App-imagen-body {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
